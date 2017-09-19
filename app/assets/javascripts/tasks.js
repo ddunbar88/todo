@@ -1,3 +1,9 @@
+Paloma.controller('ToDo', {
+  index: function() {
+    alert("JS for ToDo index page");
+    }
+  });
+
 $(function() {
     
          function taskHtml(task) {
